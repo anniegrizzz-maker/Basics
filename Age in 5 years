@@ -1,0 +1,4 @@
+name = input('Введите ваше имя:')
+age = int(input('Введите ваш возраст:'))
+age_after_5_years = age + 5
+print(f'Через 5 лет Вам будет {age_after_5_years} лет')
