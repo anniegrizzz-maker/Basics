@@ -1,0 +1,12 @@
+game_genre = input("Какой жанр игры вам нравится (ужасы/приключения/головоломки)? ").lower()
+
+if game_genre == "ужасы":
+    recommendation = "Outlast или Resident Evil"
+elif game_genre == "приключения":
+    recommendation = "The Last of Us или Uncharted"
+elif game_genre == "головоломки":
+    recommendation = "Portal или The Witness"
+else:
+    recommendation = "Попробуйте что-нибудь новое!"
+
+print(f"Куплинов рекомендует: {recommendation}")
