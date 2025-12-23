@@ -1,0 +1,18 @@
+weight = float(input('Введите массу груза:'))
+max_weith = 500
+if 1 <= weight <= 100:
+  rocket_type = 'Falcon lite'
+  print(f'Легкий груз')
+  print(f'Тип ракеты: {rocket_type}')
+elif 101 <= weight <= 300:
+  rocket_type = 'Atlas medium'
+  print(f'Средний груз')
+  print(f'Тип ракеты: {rocket_type}')
+elif 301 <= weight <= 500:
+  rocket_type = 'Titan heavy'
+  print(f'Тяжелый груз')
+  print(f'Тип ракеты: {rocket_type}')
+elif weight > 500:
+  print('Слишком большой груз! Разделите груз на несколько частей.')
+else:
+  print('Введите правильный вес!')
