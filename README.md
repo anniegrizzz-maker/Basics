@@ -1,0 +1,1 @@
+This repository contains simple Python games created for learning purposes. The project focuses on core Python concepts including control flow, functions, loops, and basic game logic implemented in the console.
